@@ -6,7 +6,8 @@ A simple Python script that monitors your local network for new, unknown devices
 
 ## ## Working Demo
 
-<img width="348" height="218" alt="Screenshot 2025-08-24 004401" src="https://github.com/user-attachments/assets/626ef8d2-2c58-4f6a-a6b8-5c4a4b7b79b3" />
+<img width="348" height="218" alt="Screenshot 2025-08-24 004401" src="https://github.com/user-attachments/assets/3d9f962f-36a1-483a-957a-6d889397980c" />
+
 
 ## ## Project Structure
 
