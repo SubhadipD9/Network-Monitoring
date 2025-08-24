@@ -26,7 +26,7 @@ The project is organized with the following file structure to facilitate easy co
 
 ---
 
-## ## Features
+## Features ⭐
 
 - **Periodic Scanning:** Automatically scans your local network at a set interval.
 - **Unknown Device Detection:** Compares found devices against a pre-approved "known devices" list.
@@ -37,7 +37,7 @@ The project is organized with the following file structure to facilitate easy co
 
 ---
 
-## ## First Setup your Machine
+## First Setup your Machine 💻
 
 ## Installation and Setup ⚙️
 
@@ -54,7 +54,7 @@ First, install the necessary software on your computer.
 - Download from [python.org](https://www.python.org).
 - **Important:** On the first screen of the installer, check the box **"Add Python.exe to PATH"**.
 
-**Install Nmap:**
+**Install Nmap 🛜🔎:**
 
 - Download the installer from [nmap.org](https://nmap.org).
 - Run the installer and accept all default options.
@@ -83,7 +83,7 @@ First, install the necessary software on your computer.
   sudo apt-get update && sudo apt-get install python3 python3-pip nmap -y
   ```
 
-## ## Setup and Configuration ⚙️
+## Setup and Configuration ⚙️
 
 Follow these steps to get the monitor up and running.
 
@@ -116,7 +116,7 @@ This file tells the script which devices are yours and should be ignored.
 
 ---
 
-### ### Method : Running Natively
+### Method : Running Natively
 
 Follow these steps if you prefer to run the script directly on your OS.
 
@@ -127,31 +127,33 @@ Follow these steps if you prefer to run the script directly on your OS.
     - Create a virtual environment
 
     ```bash
-      python -m venv myvenv # Name of your env
+      python -m venv myvenv  # Replace 'myvenv' with your preferred environment name
     ```
 
     - Activate the Virtual Environment:
 
-          #### On Windows (Command Prompt/Git Bash):
+      #### On Windows (Command Prompt/Git Bash):
 
-              ```bash
-                  # For Windows Command Prompt
+            ```bash
+                # For Windows Command Prompt
                 myenv\Scripts\activate
-              ```
+            ````
 
-              ```bash
-                  # For Git Bash for Windows
+      ##### For Git Bash
+
+            ```bash
+                # For Git Bash for Windows
                 myenv\Scripts\activate
-              ```
+            ```
 
-          #### On Linux/macOS (Bash/Zsh):
+      #### On Linux/macOS (Bash/Zsh):
 
               ```bash
                 source myenv/bin/activate
               ```
 
     - Open a terminal in the project directory.
-    - (Optional but recommended) Create and activate a virtual environment.
+    - (Optional but recommended) Create and activate a virtual environment (See the previous steps).
     - Run: `pip install -r requirements.txt`
 
 3.  **Run the Script:**
@@ -161,7 +163,7 @@ Follow these steps if you prefer to run the script directly on your OS.
 
 ---
 
-## ## Troubleshooting
+## Troubleshooting
 
 - **Problem:** The scan fails or finds 0 devices.
 
