@@ -1,0 +1,7 @@
+# This is a list of known MAC addresses on my network.
+# Lines starting with # are comments and will be ignored.
+# Format: XX:XX:XX:XX:XX:XX
+
+XX:XX:XX:XX:XX:XX  # My Desktop PC
+XX:XX:XX:XX:XX:XX  # My Phone
+XX:XX:XX:XX:XX:XX  # Living Room Smart TV

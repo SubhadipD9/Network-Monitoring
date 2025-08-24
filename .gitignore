@@ -1,0 +1,11 @@
+# Ignore environment file
+.env
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore a specific text file
+known_devices.txt
+
+#Ignore docker dir
+docker
