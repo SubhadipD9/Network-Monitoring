@@ -8,7 +8,6 @@ A simple Python script that monitors your local network for new, unknown devices
 
 <img width="348" height="218" alt="Screenshot 2025-08-24 004401" src="https://github.com/user-attachments/assets/3d9f962f-36a1-483a-957a-6d889397980c" />
 
-
 ## ## Project Structure
 
 The project is organized with the following file structure to facilitate easy configuration and deployment:
@@ -137,18 +136,18 @@ Follow these steps if you prefer to run the script directly on your OS.
 
               ```bash
                   # For Windows Command Prompt
-                  myenv\Scripts\activate
+                myenv\Scripts\activate
               ```
 
               ```bash
                   # For Git Bash for Windows
-                  myenv\Scripts\activate
+                myenv\Scripts\activate
               ```
 
           #### On Linux/macOS (Bash/Zsh):
 
               ```bash
-                    source myenv/bin/activate
+                source myenv/bin/activate
               ```
 
     - Open a terminal in the project directory.
