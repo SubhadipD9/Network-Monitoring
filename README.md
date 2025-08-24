@@ -134,23 +134,23 @@ Follow these steps if you prefer to run the script directly on your OS.
 
       #### On Windows (Command Prompt/Git Bash):
 
-            ```bash
-                # For Windows Command Prompt
-                myenv\Scripts\activate
-            ````
+      ```bash
+      # For Windows Command Prompt
+      myenv\Scripts\activate
+      ```
 
       ##### For Git Bash
 
-            ```bash
-                # For Git Bash for Windows
-                myenv\Scripts\activate
-            ```
+      ```bash
+      # For Git Bash for Windows
+      myenv\Scripts\activate
+      ```
 
       #### On Linux/macOS (Bash/Zsh):
 
-              ```bash
-                source myenv/bin/activate
-              ```
+      ```bash
+      source myenv/bin/activate
+      ```
 
     - Open a terminal in the project directory.
     - (Optional but recommended) Create and activate a virtual environment (See the previous steps).
