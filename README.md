@@ -124,6 +124,32 @@ Follow these steps if you prefer to run the script directly on your OS.
 
 2.  **Install Dependencies:**
 
+    - Create a virtual environment
+
+    ```bash
+      python -m venv myvenv # Name of your env
+    ```
+
+    - Activate the Virtual Environment:
+
+          #### On Windows (Command Prompt/Git Bash):
+
+              ```bash
+                  # For Windows Command Prompt
+                  myenv\Scripts\activate
+              ```
+
+              ```bash
+                  # For Git Bash for Windows
+                  myenv\Scripts\activate
+              ```
+
+          #### On Linux/macOS (Bash/Zsh):
+
+              ```bash
+                    source myenv/bin/activate
+              ```
+
     - Open a terminal in the project directory.
     - (Optional but recommended) Create and activate a virtual environment.
     - Run: `pip install -r requirements.txt`
